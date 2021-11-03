@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/6adaf5d2c4.js" crossorigin="anonymous"></script>
     <title>Oh My Food</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
 
 </head>
 <body>
     <header>
         <h1>ohmyfood</h1>
+        <a href="index.html" class="back"><i class="fas fa-arrow-left"></i></a>
     </header>    
 
     <main>    
@@ -21,61 +24,149 @@
 
         <section class="menu">
             <h2>La note enchantée</h2>
+            <div class="icon2">
+                <div class="heart-main2">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="heart-background2">  
+                    <i class="fas fa-heart"></i>
+                </div>    
+            </div>
             <div class="conteneur">
                 <div class="entree">
-                    <h3>ENTRÉES</h3>
+                    <h3 class="underline-h3">ENTRÉES</h3>
                     <div class="list-choix">
-                        <div class="choix">
-                            <h4>Raviole de foie gras</h4>
-                            <p>Accompagnés de leur crème à la truffe <strong>25€</strong></p>
+                        <div class="choix choix1 slide">
+                            <div class="box">
+                                <h4>Raviole de foie gras</h4>
+                                <p>Accompagnés de leur crème à la truffe </p>
+                            </div>
+                            <div class="prix">25€</div>
+                            <div class="check slide">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
                         </div>
-                        <div class="choix">
-                            <h4>Caviar osciètre</h4>
-                            <p>Sur blini à la farine de blé noire <strong>35€</strong></p>
+                        <div class="choix choix2 slide">   
+                            <div class="box">
+                                <h4>Caviar osciètre</h4>
+                                <p>Sur blini à la farine de blé noire </p>
+                            </div>
+                            <div class="prix">35€</div>
+                            <div class="check slide">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
                         </div>
-                        <div class="choix">
-                            <h4>Homard et espuma</h4>
-                            <p>Marinés aux zests d'orange <strong>20€</strong></p>
+                        <div class="choix choix3 slide">
+                            <div class="box">
+                                <h4>Homard et espuma</h4>
+                                <p>Marinés aux zests d'orange </p>
+                            </div>
+                            <div class="prix">20€</div>
+                            <div class="check slide">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
                         </div>
-                        <div class="choix">
-                            <h4>Foie gras de canard cuit entier</h4>
-                            <p>Confiture de figue et pain toasté <strong>35€</strong></p>
+                        <div class="choix choix4 slide">
+                            <div class="box">
+                                <h4>Foie gras de canard cuit entier</h4>
+                                <p>Confiture de figue et pain toasté </p>
+                            </div>
+                            <div class="prix">35€</div>
+                            <div class="check slide">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="entree">
-                    <h3>PLATS</h3>
+                    <h3 class="underline-h3">PLATS</h3>
                     <div class="list-choix">
-                        <div class="choix">
-                            <h4>Noix de coquilles Saint-Jacques</h4>
-                            <p>Sur lit de purée de célerie-rave <strong>40€</strong></p>
+                        <div class="choix choix1 slide">
+                            <div class="box">
+                                <h4>Noix de coquilles Saint-Jacques</h4>
+                                <p>Sur lit de purée de célerie-rave </p>
+                            </div>
+                            <div class="prix">40€</div>
+                            <div class="check slide">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
                         </div>
-                        <div class="choix">
-                            <h4>Langoustine poêlée</h4>
-                            <p>Purée de patate douce <strong>35€</strong></p>
+                        <div class="choix choix2 slide">
+                            <div class="box">
+                                <h4>Langoustine poêlée</h4>
+                                <p>Purée de patate douce </p>
+                            </div>
+                            <div class="prix">35€</div>
+                            <div class="check slide">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
                         </div>
-                        <div class="choix">
-                            <h4>Mijoté de queue de boeuf</h4>
-                            <p>Et riz sauvage aux zestes de citron <strong>44€</strong></p>
+                        <div class="choix choix3 slide">
+                            <div class="box">
+                                <h4>Mijoté de queue de boeuf</h4>
+                                <p>Et riz sauvage aux zestes de citron </p>
+                            </div>
+                            <div class="prix">44€</div>
+                            <div class="check slide">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class="choix note">
+                            <div class="box">
+                                <h4>Foie gras de canard cuit entier</h4>
+                                <p>Confiture de figue et pain toasté </p>
+                            </div>
+                            <div class="prix">35€</div>
+                            <div class="check slide">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="entree">
-                    <h3>DESSERTS</h3>
+                    <h3 class="underline-h3">DESSERTS</h3>
                     <div class="list-choix">
-                        <div class="choix">
-                            <h4>Macaron noisette et chocolat</h4>
-                            <p>Glace au caramel brun et sel de Guérande <strong>18€</strong></p>
+                        <div class="choix choix1 slide">
+                            <div class="box">
+                                <h4>Macaron noisette et chocolat</h4>
+                                <p>Glace au caramel brun et sel de Guérande </p>
+                            </div>
+                            <div class="prix">18€</div>
+                            <div class="check slide">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
                         </div>
-                        <div class="choix">
-                            <h4>Baba au rhum revisité</h4>
-                            <p>Avec son coulis de citron <strong>22€</strong></p>
+                        <div class="choix choix2 slide">
+                            <div class="box">
+                                <h4>Baba au rhum revisité</h4>
+                                <p>Avec son coulis de citron </p>
+                            </div>
+                            <div class="prix">22€</div>
+                            <div class="check slide">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
                         </div>
-                        <div class="choix">
-                            <h4>Tarte au citron meringuée</h4>
-                            <p>Destructurée <strong>23€</strong></p>
+                        <div class="choix choix3 slide">
+                            <div class="box">
+                                <h4>Tarte au citron meringuée</h4>
+                                <p>Destructurée </p>
+                            </div>
+                            <div class="prix">23€</div>
+                            <div class="check slide">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class="choix note">
+                            <div class="box">
+                                <h4>Foie gras de canard cuit entier</h4>
+                                <p>Confiture de figue et pain toasté </p>
+                            </div>
+                            <div class="prix">35€</div>
+                            <div class="check slide">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -89,13 +180,17 @@
         <h2>ohmyfood</h2>
         <nav class="nav-barre">
             <ul>
-                <li><a href=""><i class="fas fa-utensils"></i>&nbsp Proposer un restaurant</a></li>
-                <li><a href=""><i class="fas fa-hands-helping"></i>&nbspDevenir partenaire</a></li>
+                <li><a href=""><i class="fas fa-utensils"></i> Proposer un restaurant</a></li>
+                <li><a href=""><i class="fas fa-hands-helping"></i> Devenir partenaire</a></li>
                 <li><a href="">Mentions légales</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="mailto:faouzi9200@gmail.com">Contact</a></li>
             </ul>
         </nav>
     </footer>
+
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
     
 </body>
 </html>
