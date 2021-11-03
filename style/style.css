@@ -81,9 +81,6 @@ input {
 }
 
 .explorer button {
-  color: white;
-  font-weight: 300;
-  padding: 15px 25px;
   border-radius: 50px;
   font-size: 120%;
   -webkit-box-shadow: 7px 12px 32px -12px rgba(0, 0, 0, 0.69);
@@ -94,14 +91,17 @@ input {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
   background-image: linear-gradient(to top, #9356DC, #FF79DA);
   cursor: pointer;
+  color: white;
+  font-weight: 300;
+  padding: 15px 25px;
 }
 
 .explorer button:hover {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
   opacity: 0.9;
-  -webkit-box-shadow: 7px 12px 32px -6px rgba(0, 0, 0, 0.69);
-          box-shadow: 7px 12px 32px -6px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 7px 12px 32px -12px rgba(0, 0, 0, 0.69);
+          box-shadow: 7px 12px 32px -12px rgba(0, 0, 0, 0.69);
 }
 
 /* Fonctionnement */
@@ -543,18 +543,18 @@ footer li {
 }
 
 .menu button {
-  color: white;
-  padding: 12px 23px;
   border-radius: 50px;
   font-size: 120%;
-  -webkit-box-shadow: 2px 1px 8px -3px #000;
-          box-shadow: 2px 1px 8px -3px #000;
-  border: none;
+  -webkit-box-shadow: 7px 12px 32px -12px rgba(0, 0, 0, 0.69);
+          box-shadow: 7px 12px 32px -12px rgba(0, 0, 0, 0.69);
   -webkit-transition: all 200ms;
   transition: all 200ms;
+  border: none;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
   background-image: linear-gradient(to top, #9356DC, #FF79DA);
   cursor: pointer;
+  color: white;
+  padding: 12px 23px;
   margin: 7% 29%;
 }
 
