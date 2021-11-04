@@ -92,6 +92,7 @@ input {
 }
 
 .liste {
+  width: 250px;
   display: flex;
   align-items: center;
   gap: 15px;
@@ -581,6 +582,7 @@ footer li {
   }
 
   .liste {
+    width: 280px;
     gap: 20px;
     padding-left: 2%;
     padding-right: 2%;
