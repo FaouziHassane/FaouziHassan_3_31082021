@@ -292,7 +292,7 @@ footer li {
   stroke: none;
 }
 
-.heart-main2:hover ~ .heart-background2 {
+.heart-main2:hover  ~ .heart-background2 {
   z-index: 2;
   animation-name: pulse;
   animation-duration: 1.5s;
@@ -371,19 +371,6 @@ footer li {
   width: 102%;
 }
 
-.choix {
-  background-color: #FFF;
-  max-width: 550px;
-  height: 70px;
-  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
-  padding: 0 0 0 16px;
-  border-radius: 0.75rem;
-  margin: 1rem 0;
-  display: flex;
-  justify-content: space-between;
-  overflow: hidden;
-}
-
 .choix h4 {
   margin-bottom: -15px;
   white-space: nowrap;
@@ -399,9 +386,22 @@ footer li {
   margin-bottom: -8px;
 }
 
+.choix {
+  background-color: #FFF;
+  max-width: 550px;
+  height: 70px;
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 0 0 0 16px;
+  border-radius: 0.75rem;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
 .choix:hover {
   transition: 1s;
-  padding-right: 16.8%;
+  padding-right: 20%;
   cursor: pointer;
 }
 
@@ -430,7 +430,7 @@ footer li {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: -64px;
+  margin-right: -27.5%;
   color: white;
   font-size: 150%;
 }
@@ -485,7 +485,7 @@ footer li {
 }
 
 /* Tablette */
-@media (min-width: 680px) {
+@media (min-width: 698px) {
   /* Explorer */
   .explorer {
     padding-bottom: 3%;
@@ -564,13 +564,11 @@ footer li {
   .menu button {
     margin: 4% 38%;
   }
-  .choix:hover {
-    padding-right: 16%;
-  }
+
 }
 
 /* Desktop */
-@media (min-width: 998px) {
+@media (min-width: 1006px) {
   /* Explorer */
   .explorer {
     padding-bottom: 2%;
@@ -685,11 +683,33 @@ footer li {
   .menu button {
     margin: 4% 45%;
   }
+}
 
-  .choix:hover {
-    padding-right: 15.4%;
+
+
+@media (min-width: 699px) and (max-width: 1197px) {
+  
+  .box {
+    width: 70%;
   }
 }
+
+
+@media (min-width: 134px) and (max-width: 335px) {
+
+  .box {
+    width: 70%;
+  }
+
+  .check {
+    margin-right: -38%;
+  }
+
+  .choix:hover {
+    padding-right: 25%;
+  }
+}
+
 
 /* Keyframes */
 
